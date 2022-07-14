@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find livox_ros_driver)/launch/livox_lidar_msg.launch" />
+    <include file="$(find wit_ros_imu)/launch/wit_imu.launch" />
+    <include file="$(find galaxy_camera)/launch/MER-139.launch" />
+</launch>
